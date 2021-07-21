@@ -1,0 +1,9 @@
+ssh name@IPaddress
+password
+
+command:
+cd
+ls
+
+Install:
+sudo apt install ____ -y
