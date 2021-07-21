@@ -1,0 +1,27 @@
+Secure Shell - Internet secure over remote control 
+Networking Protocol (like http, https, ftp, etc)
+Allows secure communications
+Can secure any network service
+Typically used for remote command line access
+Traffic is encrypted
+Used mostly in the terminal/command line
+
+SSH is the client
+SSHD is the server (Open SSH Daemon)
+The server must have sshd installed and running or you will not be able to connect using SSH
+
+Authentication Methods: >ssh name@IPaddress or name@server.com
+  Passeword
+  Public / Private Key Pair
+  Host Based
+  
+Generating Keys: >ssh-keygen
+  ~/.ssh/id_rsa (Private Key / Default Key)
+  ~/.ssh/id_rsa.pub (Public Key)
+  Public key goes into server "authorized_keys" file
+  
+What about Window? 
+  Windows 10 now supports native SSH
+  Putty is used in older versions of Windows
+  Git Bash & other terminal programs include the ssh command & other Unix tools
+  
